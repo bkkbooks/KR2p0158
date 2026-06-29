@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR2p0158/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0158/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 語叢四
+  identifiers:
+    krp: KR2p0158
+  tags:
+    kr-categories: KR2p
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0158.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0158_001-CHANT.yaml, hash: 'sha256:05cc86c4ba7cfbb4de3012bf2273eb9a735e1c2da7259a0fb1fcd7a86d8811fa'}
+  - {seq: 2, filename: KR2p0158_002-CHANT.yaml, hash: 'sha256:eac8115cc31ffcb241b336c0de70483d8a19828673294f61f18424804b0b989b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0158_001-CHANT.markers.yaml, hash: 'sha256:3ccc5777a747671533d938d41a129d9caaa73296eb7414e40d98d9be41821418'}
+  - {seq: 2, role: markers, filename: assets/KR2p0158_002-CHANT.markers.yaml, hash: 'sha256:f669b4b5529641d2d5ad9a201d07efb4c86066f279b8b818e94fbb47ec610ce0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0158_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 116
+  label: 一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2p0158_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 290
+  label: 二
+  type: section
+  level: 1
+hash: sha256:2ad8ff59635d3a234a6934fa86966c2cb30410a33544d662f10fee8f7beed258
