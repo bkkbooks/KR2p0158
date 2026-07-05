@@ -18,9 +18,10 @@ metadata:
 assets:
   parts:
   - {seq: 1, filename: KR2p0158_001.yaml, hash: 'sha256:05cc86c4ba7cfbb4de3012bf2273eb9a735e1c2da7259a0fb1fcd7a86d8811fa'}
-  - {seq: 2, filename: KR2p0158_002.yaml, hash: 'sha256:a642c9cb3f856b667e7fc9a1660dbb38786044f22a86e61a9432a11774d58efe'}
+  - {seq: 2, filename: KR2p0158_002.yaml, hash: 'sha256:eac8115cc31ffcb241b336c0de70483d8a19828673294f61f18424804b0b989b'}
   markers:
-  - {seq: 2, role: markers, filename: assets/KR2p0158_002.markers.yaml, hash: 'sha256:d099ee68f5db4417d0a3459b706f5cea9116f52b4327de0b1daa08206d9af2ab'}
+  - {seq: 1, role: markers, filename: assets/KR2p0158_001.markers.yaml, hash: 'sha256:db9af51ecc237e3cc91143f26364c2f22d0eb3f2da1c9aaee2a810dc4fd6b4a0'}
+  - {seq: 2, role: markers, filename: assets/KR2p0158_002.markers.yaml, hash: 'sha256:a2b9f206b2775fa9a49e4247d371e30f596d708875591aa5bd21c1c6a3e52d31'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 二
   type: section
   level: 1
-hash: sha256:7d905e5e3fab5fa115993ad57edaef1cffd8e9fae1c782f323a230d40bb9c6d4
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:23943f3566cf1c842f5496c24af2fb159664c04c3d7e38fe57c1a1da5ec8611c
